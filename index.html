@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeZone</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar">
+        <h1 class="logo">CakeZone</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>About Us</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Meet The Team</li>
+            <li class="ctn"><a href="#"></a>Contat Us</li>
+        </ul>
+        <img src="menu_btn.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Best Cake Shop</h2>
+            <div class="line"></div>
+            <h1>CakeZone</h1>
+            <a href="#" class="ctn">See More</a>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section class="Services">
+        <div class="title">
+            <h1>Services</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="blackforest.jpg" alt="">
+                <h4>BlackForest Pastry</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam voluptate
+                    cum sunt nulla
+                </p>
+                <a href="#" class="ctn">RS.90</a>
+            </div>
+            <div class="col">
+                <img src="pineapple.jpg" alt="">
+                <h4>PineApple Cake</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam voluptate
+                    cum sunt nulla
+                </p>
+                <a href="#" class="ctn">Rs.300</a>
+                </a>
+            </div>
+
+            <div class="col">
+                <img src="pancake.jpg" alt="">
+                <h4>Pancake Cake</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam voluptate
+                    cum sunt nulla
+                </p>
+                <a href="#" class="ctn">Rs.380</a>
+            </div>
+        </div>
+    </section>
+
+     <section class="sec">
+        <div class="row">
+            <div class="col">
+                <img src="velvet.jpg" alt="">
+                <h4>RedVelvet Cake</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam voluptate
+                    cum sunt nulla
+                </p>
+                <a href="#" class="ctn">Rs.400</a>
+            </div>
+            <div class="col">
+                <img src="strawberry.jpg" alt="">
+                <h4>Strawberry Cup Cake</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam voluptate
+                    cum sunt nulla
+                </p>
+                <a href="#" class="ctn">Rs.500</a>
+            </div>
+
+            <div class="col">
+                <img src="vanilla.jpg" alt="">
+                <h4>Vanilla Cake</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam voluptate
+                    cum sunt nulla
+                </p>
+                <a href="#" class="ctn">Rs.250</a>
+            </div>
+        </div>
+    </section>
+    <section class="aboutus">
+        <div class="about-content">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque in quisquam ducimus magnam perspiciatis quasi, 
+        laborum animi accusamus ipsum asperiores voluptate sequi veniam nisi vero velit nesciunt laboriosam. In, voluptas.</p>
+        <a href="#" class="ctn">See More</a>
+    </div>
+    </section>
+
+    <section class="team">
+     <div class="row">
+        <div class="col content-col">
+            <h1>Meet our Team</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perspiciatis consectetur dolore commodi quas nam aperiam 
+                earum odio? Temporibus pariatur, accusamus, laboriosam, maiores quam 
+                expedita voluptas nihil illo eveniet dicta facilis. Hic laudantium voluptatum beatae fugit quos saepe modi et?.</p>
+                <a href="#" class="ctn">See More</a>
+        </div>
+        <div class="col image-col">
+            <div class="team-img">
+                <img src="team-1.jpg" alt="">
+                <img src="team-2.jpg" alt="">
+                <img src="team-3.jpg" alt="">
+                <img src="team-5.jpg" alt="">
+            </div>
+        </div>
+     </div>
+
+    </section>
+
+    <section class="footer">
+        <p>Store No 2, Krishna Leela Society Jambhulkar Chowk, Pune Maharashtra 411040 | Email: cakezone12@gmail.com</p>
+        <p>Copyright &copy;2023</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
